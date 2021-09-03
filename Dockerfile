@@ -6,7 +6,7 @@ FROM nginx:latest
 
 COPY ./build /usr/share/nginx/html
 
-COPY ./mementotime.conf /etc/nginx/conf.d
+COPY ./default.conf /etc/nginx/conf.d
 
 # COPY ./nginx.conf /etc/nginx/nginx.conf
 
