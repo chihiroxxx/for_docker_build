@@ -55,7 +55,7 @@ workflows:
   version: 2
   build_deploy_to_fargate:
     jobs:
-      # - build
+      - build
       # - test:
       #     requires:
       #       - build
@@ -92,4 +92,3 @@ workflows:
           filters:
             branches:
               only: master
-# circleCI test commit用
